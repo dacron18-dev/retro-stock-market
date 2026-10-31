@@ -1,1 +1,0 @@
-# retro-stock-market
