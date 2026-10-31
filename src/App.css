@@ -60,3 +60,16 @@ button:disabled { opacity: 0.6; cursor: wait; }
 .row.hdr { font-size: 12px; text-transform: uppercase; font-weight: bold; margin-top: 10px; }
 .qtybox { display: flex; align-items: center; gap: 6px; }
 .qtybox span { font-size: 12px; white-space: nowrap; color: #6b5a3e; }
+.tablebar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; padding: 8px 12px; background: #f6efd9; border: 2px solid #2b2217; }
+.tablebar select { padding: 8px; font: inherit; font-weight: bold; border: 2px solid #2b2217; background: #fffdf4; }
+.tablebar.warn { background: #f6d4d1; border-color: #b3261e; }
+.tablebar span { color: #b3261e; font-weight: bold; font-size: 13px; }
+.scroll { overflow-x: auto; }
+.grid-table th, .grid-table td { text-align: center; padding: 4px; min-width: 52px; }
+.grid-table th:first-child, .grid-table td:first-child { text-align: left; min-width: 110px; }
+.grid-table td.me, .grid-table th.me { background: #e6d9a8; }
+.grid-table td.zero .cellnum { color: #b3261e; }
+.cellnum { font-weight: bold; font-size: 16px; }
+.cellin { width: 52px; padding: 2px; font-size: 12px; text-align: center; }
+.fillbar { display: flex; gap: 8px; align-items: center; margin: 10px 0; flex-wrap: wrap; }
+.fillbar input { width: 80px; }
